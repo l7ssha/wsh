@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>WSH PROJECT</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer th:src="@{/js/main.js}"></script>
+
+    <link rel="stylesheet" th:href="@{/css/main.css}">
+</head>
+<body>
+    <div id="app">
+        <h1 class="center">WSH PROJECT</h1>
+        <div id="playerPlayerSection">
+            <label for="savePlayerInput">Nickname</label><input type="text" id="savePlayerInput"> <br>
+            <button id="savePlayerButton">Save new player</button>
+        </div>
+        <div id="sessionSection">
+            <p id="playerNickName"></p>
+        </div>
+    </div>
+</body>
+</html>
