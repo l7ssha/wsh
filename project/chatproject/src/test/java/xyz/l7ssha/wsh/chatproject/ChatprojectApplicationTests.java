@@ -1,13 +1,13 @@
-package xyz.l7ssha.wsh;
+package xyz.l7ssha.wsh.chatproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WshApplicationTests {
+class ChatprojectApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
